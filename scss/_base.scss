@@ -1,14 +1,71 @@
 header {
 	top: 0;
 	margin: 0;
-	padding-top: 40px;
+	// padding-top: 40px;
 	padding-bottom: 40px;
 	margin-top: 30px;
 	text-align: center;
 }
 
+.imageheader{
+	width: 100%;
+	max-width: 1900px;
+}
+
+.threecolumn clearfix{
+	width: 100%;
+	max-width: 500px;
+}
+
+footer{
+	color: white;
+	font-family: $opensansfont;
+	height: 110px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	// position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+// h13{
+// 	position: absolute;
+// 	bottom: 0px;
+// 	right: 0px;
+// 	padding-right: 35px;
+// 	margin-bottom: 5px;
+// 	font-size: .7em;
+// }
+
+h3, h5, h7, h9, h11{
+	color: white;
+	font-size: 2em;
+	font-family: $opensansfont;
+}
+
+h4, h6, h8, h10, h12{
+	color: white;
+	font-size: 1.2em;
+	font-family: $opensansfont;
+}
+
+p{
+	color: white;
+	font-size: 1em;
+	font-family: $opensansfont;
+}
+
+.imagefooter{
+	width: 100%;
+	max-width: 350px;
+}
+
 html{
-	 background-color: #fdfd96;
+	 background: url('../img/blueprint_wide.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 /* universal styles */
@@ -40,24 +97,16 @@ html{
 
 .left{
 	float: left;
+	// background: url("img/boxes.png");
+	// background-size: cover;
 }
 
 .right{
 	float: right;
 }
 
-header, 
-section,
-footer {
-	background: rgba(255,255,255,0.8);
-	border: solid 2px rgba(0,0,0,0.8);
-	padding: 10px 15px;
-	margin-bottom: 20px;
-}
-
-header {
-	background: url('../img/float-on.png') center no-repeat rgba(255,255,255,0.8);
-	height: 122px;		
+h1{
+	opacity: 0;
 }
 
 h1, 
@@ -65,6 +114,7 @@ h2,
 p {
 	margin-bottom: 10px;
 }
+
 
 .twocolumn section{
 	width: 49%;
